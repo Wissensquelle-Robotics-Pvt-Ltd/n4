@@ -1,0 +1,22 @@
+.back {
+  background-size: cover;
+  border-radius: 5px;
+  color: black;
+  width: 12rem;
+  height: 10rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+}
+.header {
+  align-items: center;
+}
+.backb {
+  background-size: cover;
+  border-radius: 5px;
+  color: black;
+  width: 12rem;
+  height: 10rem;
+  margin: 6rem;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+}

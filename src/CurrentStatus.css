@@ -1,0 +1,72 @@
+.box {
+  background-size: cover;
+  border-radius: 5px;
+  color: black;
+  width: 12rem;
+  height: 3rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+  cursor: pointer;
+}
+.box:hover {
+  color: white;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000;
+}
+.boxa {
+  background-size: cover;
+  border-radius: 5px;
+  color: black;
+  width: 12rem;
+  height: 3rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+  cursor: pointer;
+}
+.backab {
+  background-size: cover;
+  border-radius: 5px;
+  color: black;
+  width: 12rem;
+  height: 10rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+}
+.boxa:hover {
+  color: white;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000;
+}
+.back:hover {
+  color: white;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedbox {
+  background-size: cover;
+  border-radius: 5px;
+  width: 12rem;
+  height: 3rem;
+  align-items: center;
+  box-shadow: 0.5px 0.5px 1px 1px #000;
+  cursor: pointer;
+  color: white;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000;
+}

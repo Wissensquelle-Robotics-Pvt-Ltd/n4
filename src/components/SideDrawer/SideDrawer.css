@@ -1,0 +1,54 @@
+.side-drawer {
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  z-index: 200;
+  width: 70%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+.side-drawer.open {
+  transform: translateX(0);
+}
+.side-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+
+.side-drawer li:hover {
+  color: #fff;
+  background-color: #1ca24b;
+}
+.side-drawer li:click {
+  color: #fff;
+  background-color: #eb913a;
+}
+.side-drawer li:active {
+  color: #fff;
+  background-color: #eb913a;
+}
+.list_selected {
+  padding-top: 10px;
+  cursor: pointer;
+  padding: 0px;
+  flex: 1;
+  padding: 10px;
+  color: #fff;
+  background-color: #eb913a;
+}
+.list_unselected {
+  padding-top: 10px;
+  color: #eb913a;
+  cursor: pointer;
+  padding: 0px;
+  flex: 1;
+  padding: 10px;
+}
